@@ -5,6 +5,16 @@
 #include <stdio.h>
 
 int main() {
+   int sub1,sub2;
+   
+   printf("Enter subject 1 marks : ");
+   scanf("%d" . &sub1);
+   printf("Enter subject 2 marks : ");
+   scanf("%d" , &sub2);
+    
+   sum =sub1 + sub2 ;
+   average = sum % 2 ;
+   printf(" Average is %d\n",average);
   
   return 0;
 }
